@@ -3,12 +3,12 @@ $(document).ready(function() {
     $(function() {
         $('.typed-header').typed({
             strings: ['Web Development.',
-                        'Process Improvement.',
-                        'Creative Problem Solving.'
+                    'Process Improvement.',
+                    'Creative Problem Solving.'
             ],
-            typeSpeed: 120,
-            startDelay: 200,
-            backDelay: 800,
+            typeSpeed: 130,
+            startDelay: 600,
+            backDelay: 1000,
 
         });
     })
