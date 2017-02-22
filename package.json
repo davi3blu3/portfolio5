@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/davi3blu3/.../issues"
   },
-  "homepage": "https://github.com/davi3blu3/...#readme"
+  "homepage": "https://github.com/davi3blu3/...#readme",
+  "dependencies": {
+    "normalize.css": "^5.0.0"
+  }
 }
