@@ -1,3 +1,45 @@
 body {
     background-color: cornflowerblue;
+    text-align: center;
+}
+
+#title-section {
+  height: 800px;
+      padding-top: 1px;
+    margin-top: -1px;
+  background-image: url(../images/evstratov_1250x800.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#title-section h1 {
+    
+}
+
+/*
+ *  Typed.JS Blinking Cursor effect
+ */
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
