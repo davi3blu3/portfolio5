@@ -1,0 +1,23 @@
+{
+  "name": "portfolio5",
+  "version": "1.0.0",
+  "description": "Dave Harned's Web Development Portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davi3blu3/....git"
+  },
+  "keywords": [
+    "portfolio",
+    "node"
+  ],
+  "author": "davi3blu3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davi3blu3/.../issues"
+  },
+  "homepage": "https://github.com/davi3blu3/...#readme"
+}
