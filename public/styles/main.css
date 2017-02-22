@@ -1,18 +1,21 @@
 body {
-    background-color: cornflowerblue;
     text-align: center;
     font-family: 'Amiko', sans-serif;
 }
 
+/*
+ *  Section Styles - Title Section
+ */
+
 #title-section {
-  height: 800px;
-      padding-top: 1px;
+    height: 800px;
+    padding-top: 1px;
     margin-top: -1px;
-  background-image: url(../images/evstratov_1250x800.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #01c7d4;
+    background-image: url(../images/evstratov_1250x800.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #01c7d4;
 }
 
 #title-section header {
@@ -29,6 +32,59 @@ body {
 #title-section h2 {
     margin-top: 10px;
 }
+
+/*
+ *  Section Styles - About Section
+ */
+
+#about-section {
+
+}
+
+#about-section .row {
+    display: inline-block;
+
+}
+
+#about-section .col-left {
+    width: 50%;
+    padding: 1px;
+    margin-top: -1px;    
+    background-color: #01c7d4;
+    color: white;
+}
+
+#about-section .col-right {
+    width: 50%;
+    background-color: white;
+    color: black;
+}
+
+#about-section p {
+    margin: 16px auto;
+    width: 80%;
+    font-size: 20px;
+}
+
+
+
+ /*
+ *  Section Styles - Skills Section
+ */
+
+ #skills-section {
+     min-height: 800px;
+     background-color: #03b142;
+ }
+
+  /*
+ *  Section Styles - Projects Section
+ */
+
+ #projects-section {
+     min-height: 800px;
+     background-color: #ff0027;
+ }
 
 /*
  *  Typed.JS Blinking Cursor effect

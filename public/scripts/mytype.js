@@ -4,7 +4,7 @@ $(document).ready(function() {
         $('.typed-header').typed({
             strings: ['Web Development.',
                     'Process Improvement.',
-                    'Creative Problem Solving.'
+                    'Solving Technical Challenges.'
             ],
             typeSpeed: 130,
             startDelay: 600,
