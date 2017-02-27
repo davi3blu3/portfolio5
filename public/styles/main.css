@@ -1,7 +1,16 @@
+/*
+ *  Colors Reference
+ *  red:    #ff0027
+ *  blue:   #01c7d4
+ *  green:  #03b142
+ */
+
 body {
     text-align: center;
     font-family: 'Amiko', sans-serif;
+    background-color: black;;
 }
+
 
 /*
  *  Section Styles - Title Section
@@ -38,12 +47,14 @@ body {
  */
 
 #about-section {
-
+    background-color: #01c7d4;
+    color: black;
+    border-top: 1px solid #01c7d4;
 }
 
 #about-section .row {
     display: inline-block;
-
+    text-align: left;
 }
 
 #about-section .col-left {
@@ -68,23 +79,40 @@ body {
 
 
 
- /*
+/*
  *  Section Styles - Skills Section
  */
 
  #skills-section {
-     min-height: 800px;
-     background-color: #01c7d4;
+    min-height: 800px;
+    background-color: white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    color: black;
  }
 
-  /*
+/*
  *  Section Styles - Projects Section
  */
 
  #projects-section {
      min-height: 800px;
-     background-color: #03b142;
+     background-color: #ff0027;
+     border-top: 1px solid #ff0027;
+     border-bottom: 1px solid #ff0027;
  }
+
+/*
+ *  Section Styles - Contact Section
+ */
+
+ #contact-section {
+    min-height: 800px;
+    background-color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: #01c7d4;
+ } 
 
 /*
  *  Typed.JS Blinking Cursor effect
